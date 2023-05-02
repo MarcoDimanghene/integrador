@@ -1,5 +1,15 @@
- 
- 
+@font-face {
+    font-family: 'nunitoitalic';
+    src: url(./Fuente/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);  
+    } 
+@font-face {
+    font-family: 'nunito';
+    src: url(./Fuente/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);  
+    } 
+    
+
+
+
 @keyframes tracking-in-expand{0%{letter-spacing:-.2em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 @keyframes scale-up-bottom-right{0%{transform:scale(.5);transform-origin:right bottom}100%{transform:scale(1);transform-origin:right bottom}}
 html{
@@ -102,6 +112,13 @@ p{
     color: aliceblue;
     font-size: 1em;
     float: left;
+    font-family: "nunito";
+}
+.a6{
+    color: aliceblue;
+    font-size: 1em;
+    float: left;
+    
 }
 .txtmenu1:hover {
     background: #a7c957;
@@ -162,7 +179,7 @@ p{
 }
 .txt0{
     color: rgb(253, 253, 253);
-    
+    font-family: "nunitoitalic";
     font-weight: 300;
 }
 .imgportada{
@@ -345,6 +362,7 @@ button:hover{
 }
 /* Footer */
 h4{
+    font-family: "nunito";
     margin: 10px 0 0 0;
     padding: 0;
 }
@@ -371,7 +389,7 @@ h4{
 }
 .txt3{
     font-size: 0.8em;
-    
+    font-family: "nunitoitalic";
     margin: 0 0 0 10px;
     padding: 0;
 }
@@ -438,6 +456,7 @@ h4{
         height: 15%;
     }
     .txt2{
+        
         font-size: 0.8em;
     }
     .botonesreging{
