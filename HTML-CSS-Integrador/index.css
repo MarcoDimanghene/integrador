@@ -215,7 +215,7 @@ p{
 .contacto{
     display: flex;
     align-items: center;
-    
+    margin: auto;
     flex-direction: column;
     width: 80%;
     height: 20%;
@@ -262,7 +262,7 @@ button:hover{
 }
 
 .lblfrm{
-    color:white;
+    color:#0B090A;
 
 }
 .frmcont{
@@ -293,7 +293,9 @@ button:hover{
 .selector{
     display: flex;
     justify-content:center; 
+    align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: #A4161A;
     
     width: 100%;
@@ -358,7 +360,7 @@ button:hover{
 .imgselector{
     margin: 0;
     width: auto;
-    height: 100%;    
+    height: 90%;    
 }
 
 
@@ -376,7 +378,7 @@ button:hover{
 }
 .vincent:hover::after{
     content: 'Vincent Van Gogh';
-    position: absolute;
+    position:absolute;  
     color:black;
     background-color: aliceblue;
 }
@@ -535,8 +537,16 @@ h4{
         animation:scale-up-bottom-right 0.4s;
         /* animation:slide-left 0.4s linear both; */
     }
-   
-   
+    .imgselector{
+        margin: 0;
+        width: auto;
+        height: 60%;    
+    }
+    .selec{
+        display: flex;
+        height: 100%;
+        width: 90%;
+    }
 
     .txtmenu1{
         display: flex;
@@ -555,7 +565,20 @@ h4{
     .a6{
         font-size: 0.5em;
     }
-   
+    .vincent:hover::before{
+        content: 'Vincent Van Gogh';
+        position:absolute;
+         width: 30%;   
+        color:black;
+        background-color: aliceblue;
+    }
+    .vincent:hover::after{
+        visibility: hidden;
+        content: 'Vincent Van Gogh';
+        position:absolute;  
+        color:black;
+        background-color: aliceblue;
+    }
 }
 @media (max-width: 425px) {
     
