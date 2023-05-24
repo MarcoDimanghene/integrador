@@ -7,39 +7,40 @@
     src: url(./Fuente/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);  
     } 
     
-
-
-
 @keyframes 
 tracking-in-expand{  
-    0%{letter-spacing:0.5em;opacity:0} 40%{opacity:.6} 100%{opacity:1}
+    0%{letter-spacing:0.2em;opacity:0} 40%{opacity:.6} 100%{opacity:1}
                     
                 }
 @keyframes scale-up-bottom-right{0%{transform:scale(.5);transform-origin:right bottom}100%{transform:scale(1);transform-origin:right bottom}}
 
-/* .animacion {
-    animation-name: tracking-in-expand;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-  } */
+
 html{
     scroll-behavior: smooth;
+    
 }
 p{
     margin: 0 ;
     padding: 0;
 }
-body{
-    margin: 0;
+.museo {
+    list-style: none;
+    margin: auto;
     padding: 0;
-    background-color: #E5383B;
-    height: 160vh;
+    
+  }
+body{
+    margin: auto;
+    padding: 0;
+    background-color:#161A1D;
+    height: 180vh;
 }
 header {
+    margin: auto;
     background-color: #0B090A;
     width: 100%;
     height: 10%;
+    max-width: 1300px;
 }
 main{
     
@@ -48,9 +49,11 @@ main{
     
 }
 footer{
+    margin: auto;
     background-color: #F5F3F4;
     width: 100%;
     height: 10%;
+    max-width: 1300px;
 }
 h1{
     color: #0B090A;
@@ -137,7 +140,7 @@ p{
 }
 .txtmenu1:hover {
     background: #E5383B;
-    animation:tracking-in-expand 0.2s linear both;
+    animation:tracking-in-expand 0.3s linear both;
     animation-delay: 0.1s
     
   }
@@ -152,9 +155,11 @@ p{
     height: 5%;
 }
 .secc0{
+    margin: auto;
+    max-width: 1300px;
     background-color: #B1A7A6;
     width: 100%;
-    height: 20%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,6 +167,8 @@ p{
     overflow: hidden;
 }
 .secc1{
+    margin: auto;
+    max-width: 1300px;
     background-color:#F5F3F4;
     display: flex;
     justify-content: center;
@@ -172,6 +179,8 @@ p{
     height: 30%;
 }
 .secc2{
+    margin: auto;
+    max-width: 1300px;
     background-color: #161A1D;
     display: flex;
     justify-content: center;
@@ -179,24 +188,24 @@ p{
     flex-wrap: wrap;
     overflow: hidden;
     width: 100%;
-    height: 40%;
+    height: 30%;
 } 
 /* Dentro del Seccion 0 */
 .portada{
+    margin: 1%;
     
-    width: 90%;
+    column-count: 2; 
+    width: 100%;
     height: 100%;
-    margin: auto;
+    
 }
 
 .txt0{
     color: rgb(253, 253, 253);
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-family: "nunitoitalic";
     font-weight: 300;
-    margin-top: 20px;
-    
-    
+    margin: 2%;
 }
 .imgportada{
     height: 80%;
@@ -206,43 +215,44 @@ p{
 /* Dentro del Seccion 1 */
 .info{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
     flex-wrap: wrap;
     width: 100%;
-    height: 90%;
+    height: 80%;
+}
+.contcontacto{
+    margin-top: 5%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .contacto{
     display: flex;
     align-items: center;
-    margin: auto;
-    flex-direction: column;
-    width: 80%;
-    height: 20%;
-}
-.contenedorinfo1{
-    display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     width: 80%;
-    height: 30%;    
+    height: 100%;
 }
+
 .contenedorinfo2{
     display: flex;
     justify-content: center;
-    align-items:space-around;
     flex-wrap: wrap;
-    width: 60%;
-    height: 70%;
+    width: 50%;
+    height: 40%;
 }
 .contenedorinfo3{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     width: 40%;
-    height: 70%;
+    height: 40%;
  }
+ 
 .a2{
     color: aliceblue;
     font-size: 1em;
@@ -433,7 +443,19 @@ h4{
     .txt0{
         border-style:unset;
         margin-left: 2%;
-        font-size: 1em;
+        font-size: 1.2em;
+    }
+    .info{
+        display: block;
+    }
+    .contenedorinfo2{
+        height: 40%;
+        width: 100%;
+    }
+    .contenedorinfo3{
+        margin-left: 2%;
+        height: 60%;
+        width: 100%;
     }
 }
 
@@ -509,7 +531,7 @@ h4{
 @media (max-width: 768px) {
     
     body{
-        height: 168vh;
+        height: 300vh;
     }
    
     
@@ -520,7 +542,7 @@ h4{
     .txt0{
         border-style:unset;
         margin-left: 2%;
-        font-size: 1em;
+        font-size: 1.6em;
     }
 }
 @media (max-width: 586px){
@@ -534,7 +556,7 @@ h4{
        
     }
     .txt0{
-        font-size: 0.8em;
+        font-size: 1.3em;
     }
     .change:checked + .txtmenu{
         display: inline-block;
@@ -567,8 +589,10 @@ h4{
         margin-right: 30px;
     }
     .a6{
-        font-size: 0.5em;
+        font-size: 0.8em;
+        
     }
+    
     .vincent:hover::before{
         content: 'Vincent Van Gogh';
         position:absolute;
@@ -588,9 +612,47 @@ h4{
     
     
     .txt0{
+        margin: auto;
         border-style:unset;
-        margin-left: 1%;
-        font-size: 0.7em;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .secc0{
+        margin: auto;
+        max-width: 1300px;
+        background-color: #B1A7A6;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    .secc2{
+        margin: auto;
+        max-width: 1300px;
+        background-color: #161A1D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 100%;
+        height: 25%;
+    } 
+    .info{
+        display: block;
+    }
+    .contenedorinfo2{
+        height: 40%;
+        width: 100%;
+    }
+    .contenedorinfo3{
+        margin-left: 2%;
+        height: 60%;
+        width: 100%;
     }
 }
 
