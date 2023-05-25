@@ -102,6 +102,7 @@ p{
     width: auto;
     border-radius: 10px;
     object-fit: cover;
+    cursor: pointer;
 }
 .iconmenu{
     display: none !important;
@@ -124,6 +125,7 @@ p{
     float: left;
     padding: 5px;
     margin-left: 20px;
+    transition: all 0.3s ease 0s;
     
 }
 .a1{
@@ -151,6 +153,8 @@ h1{
 }
 .tituloh1{
     background-color: #FFFFFF;
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,7 +518,7 @@ h4{
     }
     /* TXT Info SECC1 */
     .a1{
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
     .a2{
         font-size: 0.9em;
