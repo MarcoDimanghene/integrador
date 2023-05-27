@@ -7,26 +7,30 @@
     <title>Ingresar</title>
 </head>
 <body>
-    <div class="container">
-        <div class="recuadrologin">
-            <div class="contform">
-                <form action="">
-                    <div class="conteinerimput">
-                        <label for="user">Usuario</label>
-                        <input id="user" type="text" placeholder="ingrese su Usuario">
-
-                    </div>
-                    <div class="conteinerimput">
-                        <label for="pass">Contraseña</label>
-                        <input id="pass" type="password" placeholder="ingrese su Contraseña">
-                    </div>
-                    <div class="button">
-                        <button id="ingresar" type="submit"><a href="./index.html">Ingresar</a></button>
-                <button id="cancelar" type="submit"><a href="./index.html">Cancelar</a></button>
-                    </div>            
-                </form>
-            </div>
+    <section>
+        <div class="cont-form">
+            <form class="form-value">
+                <h2>Ingreso</h2>
+                <div class="inputbox">
+                    <label for="user">Usuario</label>
+                    <input id="user" type="text">
+                </div>
+                <div class="inputbox">
+                    <label for="pass">Contraseña</label>
+                    <input id="pass" type="password">
+                </div>
+                <div class="olvido">
+                    <label for=""><input type="checkbox">Recuerda me <a href="#">Olvidaste tu contraseña</a> </label>
+                </div>
+                <div class="btn">
+                    <button id="ingresar" type="submit"><a href="./index.html">Ingresar</a></button>
+                    <button id="cancelar" type="submit"><a href="./index.html">Cancelar</a></button>
+                </div>
+                <div class="registro">
+                    <p>No tienes cuenta <a href="/Registrarse.html">Registrate</a></p>
+                </div>
+            </form>
         </div>
-    </div>  
+    </section>  
 </body>
 </html>
