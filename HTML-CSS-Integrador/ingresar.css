@@ -50,7 +50,7 @@ h2{
 .inputbox label{
     top: 50%;
     left: 5px;
-    transform: translateY(-50%);
+    
     color: #fff;
     font-size: 1em;
     pointer-events: none;
@@ -119,4 +119,33 @@ button a{
 }
 .registro p a:hover{
     text-decoration: underline;
+}
+@media (max-width: 430px) {
+    .inputbox{
+        margin-left: 20px;
+        width: 200px;
+        
+    }
+    .inputbox input {
+        width: 100%;
+        
+    }
+    .btn{
+        display: block;
+    }
+    button{
+        width: 90%;
+        height: 30px;
+        margin-left: 10px;
+        font-size: 0.9em;
+    }
+    .olvido{
+        margin: 25px;
+        display: block;
+        
+    }
+    .olvido label a{
+        display: block;
+        margin-top: 15px;
+    }
 }
