@@ -1,103 +1,110 @@
 @font-face {
-    font-family: 'GaramondR';
-    src: url(./Fuente/CormorantGaramond-Regular.ttf);  
-    }
-@font-face {
-    font-family: 'GaramondM';
-    src: url(./Fuente/CormorantGaramond-Medium.ttf);  
-    }
-@font-face {
-    font-family: 'GaramondMI';
-    src: url(./Fuente/CormorantGaramond-MediumItalic.ttf);  
+    font-family: 'latoreg';
+    src: url(./Fuente/Lato-Regular.ttf);  
     }
 
-a{
-  text-decoration: none;
-  color: white;
-    }
-body{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    background-color:#081c15;
-    font-family: "GaramondR";
-    font-size: 1.2em;
-}
-form{
-    background-color:#95D5B2;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 90%;
-    border-radius: 25px;
     
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'latoreg';
+    font-weight: 500;
+}
+
+body{
+    background:url(/Img/fondologin.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+section{
+    position: relative;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border:solid 2px rgba(255,255,255,0.5);
+    border-radius: 50px;
+    width: 80%;
+    max-width: 550px;
+    height: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button{
     text-decoration: none;
     border: none;
-    background-color: black;
-    color: aliceblue;
-    font-family: "GaramondR";
-    font-size: 1.2em;
+    background-color:#fff;
     border-radius: 25px;
     padding: 10px;
-    width: 35%;
+    width: 30%;
 }
 button:hover{
-    background-color: rgb(253, 253, 253);
-    color: rgb(16, 79, 134);
+    background-color: grey;
 }
-
+button a{
+    width: 100%;
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
 .chec{
     display: flex;
     justify-content:center;
     align-items:center;
-    margin-bottom: 2px;
-   
+    margin-bottom: 5px;
+    padding: 5px;
+}
 
-}
-.columna1{
-    
-    margin-bottom: 2%;
-    
-}
-.columna2{
-  
-    margin-bottom: 2%;
-   
-}
-.cont{
+.contbutton{
+    margin-top: 35px;
     display: flex;
     justify-content:center;
     align-items:center;
-    width: 60%;
-    height: 100%;
-    
-}
-.textos{
- font-family: "GaramondM";
- font-size: 1.2em;
-}
-.txtimput{
-    font-family: "GaramondR";
-    font-size: 1.2em;
-    width: 90%;
-    border-radius: 25px;
-    padding: 10px;
-    text-align: center;
-    font-weight: 600;
-   }
-
-.button{
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    overflow: hidden;
 }
 label{
-    font-family: "GaramondR";
-    font-weight: 600;
+    color: #fff;
     font-size: 1.2em;
+}
+.chec label{
+    margin: 0px 15 0px;
+}
+.columna {
+    margin: auto;
+    position: relative;
+    margin: 5% 14%;
+    width: 70%;
+    border-bottom: 2px solid #fff;
+}
+.columna label{
+    top: 50%;
+    left: 5px;
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+}
+.columna input {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+@media (max-width: 430px) {
+    .chec label{
+        margin: 0px 15 0px;
+        font-size: 1em;
+    }
+    
 }
