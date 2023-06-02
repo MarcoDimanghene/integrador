@@ -4,167 +4,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/8083d86996.js" crossorigin="anonymous"></script>
-    <title>Museos del Mundo: Tesoros de Arte y Cultura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Arte Constante</title>
 </head>
 <body>
-    <header>
-        <nav class="contenedornav">
-            <div   class="logo">
-                <img  class="imglogo" src="./Logo/logo2.jpg" alt="">
-            </div>
-            <div class="contenedormenu">
-                <label for="change">
-                    <i class="iconmenu fa-sharp fa-solid fa-bars fa-2xl"  style="color: aliceblue;"></i>
-                </label>
-                 <input type="checkbox" class="change" name="" id="change">
-                 
-                <ul class="txtmenu"> 
-                    <li class="txtmenu1"> <a class="a1" href="">Inicio</a></li> 
-                    <li class="txtmenu1"> <a  class="a1" href="#informacion">Informacion</a></li> 
-                    <li class="txtmenu1"> <a  class="a1" href="#galeria ">Galeria</a></li> 
-                    <li class="txtmenu1"> <a  class="a1" href=" #nos">Sobre Nosotros</a></li>
-                </ul>
-            </div>
+    <header class="head">
+        <img class="logo" src="/Logo/logow.png" alt="">
+        <label for="toggle-menu" class="toggle-btn">
+            <i class="fa-solid fa-bars toggle-btn"></i>
+        </label>
+        <input type="checkbox" class="change" name="" id="toggle-menu">
+        <div class="menu">
+        <nav class="navbar">
+            <a href="#titulos">Inicio</a></li> 
+            <a href="./Ingresar.html">Ingresa</a></li> 
+            <a href="./Registrarse.html">Registrate</a></li> 
+            <a href="#Información">Información</a></li>
+            <a href="#contacts">Contacto</a></li>
         </nav>
+        </div>
     </header>
     <main>
-        <div class="tituloh1"><h1>Museos del Mundo: Tesoros de Arte y Cultura</h1></div>
-        <section id="nos"class="secc0">
+        <section class="titulos" id="titulos">
             <div class="portada">
-                <p class="txt0">¡Bienvenidos a nuestro museo de arte en línea! Nos complace darles la bienvenida a nuestra página web dedicada al arte y la cultura. En nuestro museo virtual, encontrarás una gran variedad de obras de arte de todo el mundo, desde pinturas y esculturas hasta fotografías y arte digital. Nuestro objetivo es proporcionar una experiencia única y enriquecedora para todos nuestros visitantes.
-                 Con nuestra colección en línea, puedes explorar el arte de diferentes épocas y culturas desde la comodidad de tu hogar.También te invitamos a participar en nuestros eventos y exposiciones en línea, donde podrás aprender más sobre los artistas y sus obras, así como interactuar con otros amantes del arte de todo el mundo.
-                </p>
+                <h1>Explorando el Arte Perpetuo</h1>
+                <h2>Un Recorrido por los Tesoros Culturales </h2>
             </div>
         </section>
-        <section id= "informacion"class="secc1">
-            <div class="contcontacto">
-                <div class="contacto">
-                    <p class="txt2">Para acceder a todos nuestros contenidos exclusivos, te invitamos a registrarte en nuestra página. Si ya tienes una cuenta, ¡ingresa y comienza a explorar!</p>
-                    <div class="botonesreging">
-                        <button ><a class="a2" href="./Registrarse.html">Registrarse</a></button>
-                        <button ><a class="a2" href="./Ingresar.html"> Ingresar</a> </button>
-                    </div>
-                </div>
+        <section class="gallery">
+            <div class="back">
+                <h3 class="txt">Descubre en nuestra página Arte Constante una colección de tesoros artísticos que te cautivarán. ¡Inspírate y disfruta del arte en su esencia!</h3>
             </div>
-            
-            <div class="info">
-                <div class="contenedorinfo2">
-                        <ul class="museo" > <h3 >Museos Destacados</h3>
-                            <li class=""> <a  class="a6" href="https://www.louvre.fr/es" target="_blank">Museo del Louvre</a></li>
-                            <li class=""> <a  class="a6" href=" https://www.britishmuseum.org/" target="_blank">Museo Británico</a></li> 
-                            <li class=""> <a  class="a6" href="https://www.metmuseum.org/" target="_blank">Museo Metropolitano de Arte</a></li> 
-                            <li class=""> <a  class="a6" href="https://www.museodelprado.es/" target="_blank">Museo Nacional del Prado</a></li>
-                            <li class=""> <a  class="a6" href="https://www.moma.org/" target="_blank">Museo de Arte Moderno de Nueva York</a></li>
-                            <li class=""> <a  class="a6" href="https://www.museoreinasofia.es/" target="_blank">Museo Nacional Centro de Arte Reina Sofía</a></li>
-                            <li class=""> <a  class="a6" href="https://philamuseum.org/" target="_blank">Museo de Arte de Filadelfia</a></li>
-                            <li class=""> <a  class="a6" href="https://www.nga.gov/" target="_blank">Galería Nacional de Arte</a></li>
-                            <li class=""> <a  class="a6" href="https://www.musee-orsay.fr/" target="_blank">Museo de Orsay</a></li>
-                            <li class=""> <a  class="a6" href="https://www.kimbellart.org/" target="_blank">Museo de Arte Kimbell</a></li>
-                        </ul>
+        </section>
+        <section class="info" id="Información">
+            <div class="visitas">
+                <a href="#coliseo">Coliseo Romano</a>
+                <a href="#louvre">Louvre</a>
+                <a href="#colon">Teatro Colon</a>
+            </div>
+            <div class="contenedorvisitas">
+                <div class="coliseo" id="coliseo">
+                    <h3 class="h3visitas">El Coliseo se convirtió en el mayor anfiteatro romano, con una estructura elíptica de 188 mts. de longitud, 156 mts. de ancho y 57 metros de altura. Realizado en ladrillo y cubierto con travertino, con una capacidad para más de 50.000 personas.</h3>
+                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseo%20de%20Roma!5e0!3m2!1ses-419!2sar!4v1685477935441!5m2!1ses-419!2sar"  width="40%" height="40%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </div>
-                <div class="contenedorinfo3">
-                    <div class="frmcont">
-                        <form>
-                            <h4>CONTACTO</h4>
-                            <div class="frm">
-                                <label class="lblfrm" for="nombre">Nombre y Apellido</label>
-                                <input class="imputfrm" id="nombre" type="text" placeholder="ingrese su Nombre y Apellido">
-                            </div>
-                            <div class="frm">
-                                <label class="lblfrm" for="mail">E-Mail</label>
-                                <input class="imputfrm" id="mail" type="text" placeholder="ingrese su mail">
-                            
-                            </div>
-                            <div class="frm">
-                                <label class="lblfrm" for="asunto">Asunto</label>
-                                <input class="imputfrm" id="asunto" type="text">
-                            </div>
-                            <div class="frm">
-                                <label class="lblfrm" for="comentario">Comentario</label>
-                                <textarea class="areafrm" id="comentario" name="text-area-1"></textarea>
-                            </div>
-                            <div class="button">
-                                <button class="btenviar"id="Enviar" type="submit">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
+                <div class="louvre" id="louvre">
+                    <h3 class="h3visitas">El museo de Louvre es conocido sobre todo por su colección de pinturas, que incluye obras de maestros como Leonardo da Vinci, Miguel Ángel, Rafael y Tiziano. También tiene una importante colección de esculturas, objetos de arte y joyas.</h3>
+                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10499.537863830874!2d2.3287176083984473!3d48.860413463635915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMuseo%20del%20Louvre!5e0!3m2!1ses-419!2sar!4v1685477213334!5m2!1ses-419!2sar" width="50%" height="40%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+                <div class="colon" id="colon">
+                    <h3 class="h3visitas">El Teatro Colón inició sus actividades en 1857 en un edificio ubicado en la Plaza de Mayo, donde funcionó hasta 1888. El teatro se mudó entonces al edificio actual ubicado frente a la Plaza Vaticano, que tardó 20 años en ser construido hasta su inauguración en 1908</h3>
+                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.482604962326!2d-58.3835359!3d-34.6011105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac630121623%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sar!4v1685478661438!5m2!1ses-419!2sar" width="40%" height="40%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </div>
             </div>
         </section>
-        <section id="galeria"class="secc2">
-            <div class="selector">
+        <section  class="secccontacs" id="contacts">
+            <div class="left">
                 
-                <div class="selec">
-                    <div class="leonardo">
-                        <a href="#slec1"><img  class="imgselector " src="./Img/davinci/leonardodavinci.jpg" alt=""></a>
-                    </div>
-             
-                    <div class="monet">
-                        <a href="#slec2"><img  class="imgselector" src="./Img/monet/ClaudeMonet.jpg" alt=""></a>
-                    </div>
-                    <div class="vincent">
-                        <a href="#slec3"><img  class="imgselector" src="./Img/vangogh/VanGogh.jpg" alt=""></a>
-                    </div>
-                </div>
-                
+                    <i class="fa-solid fa-location-dot contacicon" > </i>
+                    <h3>Dirección: </h3>
+                    <p>Av. Siempre Viva 742 - Springfield</p>
+                    <i class="fa-solid fa-phone contacicon" ></i>
+                    <h3>Telefono:</h3>
+                    <p>764-84377</p>
+                    <i class="fa-solid fa-envelope contacicon" ></i>
+                    <h3>E-Mail</h3>
+                    <p>cosme@fulanito.com</p>
             </div>
-            <div class="contenedorgaleria">
-                <div id="slec1"class="imggaleria1">
-                    <div>
-                        <img  class="galeria" src="./Img/davinci/1.jpg" alt="">
-                    </div>
-                    <div>
-                        <img  class="galeria" src="./Img/davinci/2.jpg" alt="">
-                    </div>
-                    <div>
-                        <img  class="galeria" src="./Img/davinci/3.jpg" alt="">
-                    </div>
-                    <div>
-                        <img  class="galeria" src="./Img/davinci/4.jpg" alt="">
-                    </div>
-                </div>
-                <div id="slec2" class="imggaleria2">
-                    <div>
-                        <img  class="galeria2" src="./Img/monet/1.jpg" alt="">
-                    </div>
-                    <div>
-                        <img  class="galeria2" src="./Img/monet/2.jpg" alt="">
-                    </div>
-                    <div>
-                        <img  class="galeria2" src="./Img/monet/3.jpg" alt="">
-                    </div>
-                    <div class="img1">
-                        <img  class="galeria2" src="./Img/monet/4.jpg" alt="">
-                    </div>
-                </div>
-                <div id="slec3"class="imggaleria3">
-                    <div>
-                        <img  class="galeria3" src="./Img/vangogh/1.jpg" alt="">
-                    </div>
-                    <div>
-                        <img  class="galeria3" src="./Img/vangogh/2.jpg" alt="">
-                    </div>
-                    <div>
-                        <img  class="galeria3" src="./Img/vangogh/3.jpg" alt="">
-                    </div>
-                    
-                </div>
-                
+            <div class="contform">
+                <form action="">
+                    <h3>Concactenos</h3>
+                    <input type="text" placeholder="Ingrese su Nombre">
+                    <input type="text" placeholder="Ingrese su E-Mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                    <input type="submit" title="Enviar">
+                </form>
             </div>
         </section>
     </main>
-    <footer class="pie">
+    <footer>
         <div class="footer1">
-            <div class="logofoot">
-                <a class="imgfoot" href="#"> 
-                    <img src="/Logo/OM8PN60.jpg" alt="">
+            
+                <a href="#"> 
+                    <h3>Dimanghene Marco</h3>
                 </a>
-            </div>
+            
             <div class="foot1">
                 <h4>SOBRE NOSOTROS</h4>
                 
-                <p class="txt3">Ofrecemos soluciones personalizadas de tecnología para mejorar la experiencia. </p>
+                <p>Ofrecemos soluciones personalizadas de tecnología para mejorar la experiencia. </p>
             </div>
             <div class="foot2">
                 <h4>SIGUENOS</h4>

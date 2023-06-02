@@ -1,0 +1,3 @@
+El Smithsonian es el complejo de museos, educación e investigación más grande del mundo. Fue fundada en 1846, por el científico británico James Smithson, y reúne un grupo de 19 museos, 9 centros de investigación y un zoológico
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12420.563552122561!2d-77.0230688!3d38.8978934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7918467d295%3A0xc64daaa4f0a5411c!2sMuseo%20Smithsoniano%20de%20Arte%20Americano!5e0!3m2!1ses-419!2sar!4v1685479057197!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

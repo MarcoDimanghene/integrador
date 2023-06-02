@@ -1,0 +1,3 @@
+El museo de Louvre es conocido sobre todo por su colección de pinturas, que incluye obras de maestros como Leonardo da Vinci, Miguel Ángel, Rafael y Tiziano. También tiene una importante colección de esculturas, objetos de arte y joyas. El museo de Louvre es un lugar imprescindible para todos los amantes del arte
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10499.537863830874!2d2.3287176083984473!3d48.860413463635915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMuseo%20del%20Louvre!5e0!3m2!1ses-419!2sar!4v1685477213334!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
