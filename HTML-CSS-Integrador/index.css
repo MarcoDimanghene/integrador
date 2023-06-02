@@ -41,7 +41,7 @@ to {
 }
 
 body{
-    background: url(/img/bgbody2.jpg);
+    background: url(/bgbody2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -258,7 +258,7 @@ iframe{
 }
 .coliseo{
     position: relative;
-    background: url(/img/coliseoromano/exterior.jpg) no-repeat;
+    background: url(/Img/coliseoromano/exterior.jpg) no-repeat;
     background-size:cover;
     background-position: center;
     height: 500px;
