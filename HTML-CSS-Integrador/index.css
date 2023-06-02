@@ -71,7 +71,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 5%;
+    height: 60px;
     background: rgba(255,255,255,.1);
     backdrop-filter: blur(20px);
     display: flex;
@@ -269,7 +269,7 @@ iframe{
 .louvre{
     margin-top: 20px;
     position: relative;
-    background: url(/img/louvre/exterior.jpg) no-repeat;
+    background: url(./img/louvre/exterior.jpg) no-repeat;
     background-size:cover;
     background-position: center;
     height: 500px;
@@ -427,6 +427,18 @@ i{
     }
     footer{
         bottom: -180vh;
+    }
+}
+@media (max-width: 730px ){
+    .portada h1{
+        font-size: 1em ;
+        width: 80%;
+        height: auto;
+    }
+    .portada h2{
+        font-size: 1em ;
+        width: 55%;
+        height: auto;
     }
 }
 @media (max-width: 994px ){
