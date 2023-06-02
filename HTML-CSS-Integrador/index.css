@@ -54,13 +54,12 @@ body{
 }
 main{
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 footer{
     border-top: solid 2px #fff;
     height: 10%;
     position: relative;
-    
     width: 100%;
     margin: auto;
 }
@@ -71,7 +70,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: auto;
     background: rgba(255,255,255,.1);
     backdrop-filter: blur(20px);
     display: flex;
@@ -149,7 +148,7 @@ grid-outline{
     position: relative;
     align-items: center;
     top:0;
-    height: 5%;
+    height: auto;
     padding: 0 20px 0;
     backdrop-filter: blur(15px);
     z-index: 1;
@@ -466,13 +465,15 @@ i{
 @media (max-width: 768px ){
     .toggle-btn{
         position: absolute;
-        top: 10;
+        top: 5;
         right: 10%;
         display: block !important;
+        
     }
     
     .menu{
         display: none;
+        margin: 0;
         
     }
     header .navbar{
@@ -494,7 +495,9 @@ i{
         animation-name: slidein;
     }
     .change:checked + .menu{
+        
         display: inline-block;
+        
         
     }
     .navbar a::after{
