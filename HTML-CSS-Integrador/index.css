@@ -269,7 +269,7 @@ iframe{
 .louvre{
     margin-top: 20px;
     position: relative;
-    background: url(./img/louvre/exterior.jpg) no-repeat;
+    background: url(/exterior.jpg) no-repeat;
     background-size:cover;
     background-position: center;
     height: 500px;
@@ -281,7 +281,7 @@ iframe{
 .colon{
     margin-top: 20px;
     position: relative;
-    background: url(/img/colon/ext.jpg) no-repeat;
+    background: url(/ext.jpg) no-repeat;
     background-size:cover;
     background-position: center;
     height: 500px;
